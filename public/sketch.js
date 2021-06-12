@@ -17,7 +17,7 @@ function setup() {
   document.getElementById('g').value = lineColor[1].toString();
   document.getElementById('b').value = lineColor[2].toString();
 
-  socket = io.connect('multi-sketch.herokuapp.com/');
+  socket = io.connect('multi-sketch-1.herokuapp.com/');
 
   lineThickness = parseInt(document.getElementById('thickness').value);
   var data = {
